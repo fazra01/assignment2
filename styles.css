@@ -247,6 +247,8 @@ main {
 .submit-form,
 .submit-form label {
   min-width: 0;
+  gap: 6px;
+  margin-bottom: 10px;
 }
 
 .submit-form input,
