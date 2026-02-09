@@ -10,7 +10,9 @@ body {
   background: #efe9c9;
   color: #5b5b70;
 }
-
+main {
+  flex: 1;
+}
 /* Header */
 .site-header {
   display: flex;
