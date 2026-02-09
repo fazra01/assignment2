@@ -243,25 +243,21 @@ main {
   font-size: 16px;
 }
 
-.submit-form {
-  display: grid;
-  gap: 18px;
-  border: 1px solid #bdb79a;
-  padding: 26px;
-}
-
+.submit-form,
 .submit-form label {
-  display: grid;
-  gap: 8px;
-  font-size: 16px;
+  min-width: 0;
 }
 
 .submit-form input,
 .submit-form select,
 .submit-form textarea {
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #bdb79a;
+  width: 100%;
+  max-width: 100%;
+}
+
+.submit-form input[type="file"] {
+  width: 100%;
+  max-width: 100%;
 }
 
 .submit-form textarea {
