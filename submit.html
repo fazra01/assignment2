@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Percolate — Submit</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">PERCOLATE</a>
+
+    <nav class="site-nav">
+      <a href="magazine.html">magazine</a>
+      <a href="submit.html">submit</a>
+      <a href="membership.html">membership</a>
+      <a href="contact.html">contact</a>
+    </nav>
+  </header>
+
+  <main class="submit">
+    <h1 class="page-title">Submit Your Work</h1>
+
+    <p class="submit-intro">
+        We are always looking for photographers, stylists, models, makeup artists,
+        and creatives with a passion for fashion, photography, and storytelling.
+        If that sounds like you, we’d love to hear from you.
+    </p>
+
+    <p class="submit-fee">
+        A $2 submission fee is required for non-members.
+        Members submit for free.
+    </p>
+
+    <form class="submit-form" action="#" method="get">
+      <label>
+        Full name
+        <input type="text" name="name" required>
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" required>
+      </label>
+
+      <label>
+        Role you’re applying as
+        <select name="role">
+          <option>Photographer</option>
+          <option>Stylist</option>
+          <option>Model</option>
+          <option>Makeup artist</option>
+          <option>Other</option>
+        </select>
+      </label>
+
+      <label>
+        Portfolio (PDF or link screenshot)
+        <input type="file" name="portfolio">
+      </label>
+
+      <label>
+        Tell us a bit about yourself
+        <textarea name="about" rows="4"></textarea>
+      </label>
+
+      <label>
+        Why do you want to work with Percolate?
+        <textarea name="why" rows="4"></textarea>
+      </label>
+
+      <button class="btn" type="submit">Submit application</button>
+    </form>
+
+  </main>
+
+  <footer class="site-footer">
+    <small>© Percolate Magazine</small>
+  </footer>
+</body>
+</html>
